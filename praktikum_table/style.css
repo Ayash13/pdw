@@ -1,0 +1,89 @@
+body {
+    background-color: #E2F2FF;
+    background-image: linear-gradient(to bottom, #e2ffe9, #c3e8c5, #a2d1a8, #b8a17e, #a17762, #90584b, #74423e, #335359, #2d4f51, #1f3e3f);
+    font-family: Arial, sans-serif;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.492);
+    border-radius: 10px;
+}
+
+.title{
+    border: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+}
+
+td {
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+th {
+    background-color: #6C7A89;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    font-size: large;
+}
+
+thead {
+    background-color: #6C7A89;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #F5F5F5;
+}
+
+img {
+    max-width: 170px;
+    max-height: 170px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    padding: 5px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+ul li:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+ul li:last-child {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+ul li:hover {
+    background-color: #F5F5F5;
+}
+
+.grass:hover {
+    background-color: rgba(122, 204, 76, 0.2)
+}
+
+.fire:hover {
+    background-color: rgba(204, 76, 76, 0.2)
+}
+
+.water:hover {
+    background-color: rgba(76, 122, 204, 0.2)
+}
