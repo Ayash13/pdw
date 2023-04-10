@@ -1,0 +1,203 @@
+@font-face {
+    font-family: Marvel;
+    src: url(avengero-disassembled-font/AvengeroDisassembledRegular-nRvd4.ttf);
+}
+
+@font-face {
+    font-family: HarryPotter;
+    src: url(harry_p/HARRYP__.TTF);
+}
+
+@font-face {
+    font-family: Ayflix;
+    src: url(bebas-neue/BebasNeue.otf);
+}
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #181717;
+}
+
+/* Header */
+header {
+    background-color: #000000dc;
+    color: #ffffff;
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: o.6s;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+header.sticky {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #222222dd;
+}
+
+header ul {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+header ul li {
+    margin-right: 20px;
+    position: relative;
+}
+
+header ul li a {
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+header ul li a:hover {
+    position: relative;
+    text-decoration: underline;
+    color: rgb(220, 60, 60);
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+}
+
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main Content */
+main {
+    padding: 40px;
+    position: relative;
+    margin-top: 100px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+}
+
+.card img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.card img:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.modal-container {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.543);
+}
+
+.modal-content {
+    margin: 10% auto;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    padding: 0;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#player {
+    width: 100%;
+    height: 100%;
+}
+
+#MCU {
+    font-family: Marvel;
+}
+
+#HP {
+    font-family: HarryPotter;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+#Ayflix {
+    font-family: Ayflix;
+    font-weight: bold;
+    font-size: 60px;
+    color: rgb(220, 60, 60);
+}

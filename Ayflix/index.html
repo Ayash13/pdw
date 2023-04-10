@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ayflix</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#MCU">Marvel Cinematic Universe</a></li>
+            <li><a href="#HP">Harry Potter</a></li>
+        </ul>
+        <br>
+        <h1 id="Ayflix">AYFLIX</h1>
+    </header>
+    <!-- Add this inside the <body> tag -->
+    <div id="modal-container" class="modal-container">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="player"></div>
+        </div>
+    </div>
+    <main>
+        <section id="Home">
+            <h2 id="MCU">Marvel Cinematic Universe</h2>
+            <br>
+            <div class="grid">
+                <div class="card" onclick="openModal('eOrNdBpGMv8')">
+                    <img src="https://cdn.marvel.com/content/1x/theavengers_lob_crd_03.jpg" alt="The Avengers">
+                    <div>
+                        <h3>The Avengers</h3>
+                        <p>
+                            Release Date : 4 May 2012
+                        </p>
+                    </div>
+                </div>
+                <div class="card" onclick="openModal('tmeOjFno6Do')">
+                    <img src="https://cdn.marvel.com/content/1x/avengersageofultron_lob_crd_03.jpg"
+                        alt="Avengers : Age Of Ultron">
+                    <h3 style="font-size: 21px;">Avengers : Age Of Ultron</h3>
+                    <p>
+                        Release Date : 1 May 2015
+                    </p>
+                </div>
+                <div class="card" onclick="openModal('6ZfuNTqbHE8')">
+                    <img src="https://cdn.marvel.com/content/1x/avengersinfinitywar_lob_crd_02_1.jpg"
+                        alt="Avengers : Invinity War">
+                    <h3>Avengers : Invinity War</h3>
+                    <p>
+                        Release Date : 27 April 2018
+                    </p>
+                </div>
+                <div class="card" onclick="openModal('TcMBFSGVi1c')">
+                    <img src="https://www.mainmain.id/uploads/post/2019/03/17/Avengers-Endgame-Poster.jpg"
+                        alt="Avenger Endgame">
+                    <h3>Avengers : Endgame</h3>
+                    <p>
+                        Release Date : 26 April 2019
+                    </p>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <section>
+            <h2 id="HP">Harry Potter</h2>
+            <div class="grid">
+                <div class="card" onclick="openModal('mNgwNXKBEW0')">
+                    <img src="https://i.pinimg.com/564x/d7/be/9c/d7be9cf45109d48f7779a7449e7b4313.jpg"
+                        alt="Harry Potter And The Philosopher's Stone">
+                    <h3>Harry Potter : And The Philosopher's Stone</h3>
+                    <p>
+                        Release Date : 16 November 2001
+                    </p>
+                </div>
+                <div class="card" onclick="openModal('jBltxS8HfQ4')">
+                    <img src="https://i.pinimg.com/564x/a7/68/be/a768be3446ef00cc2da3b76d5704adbd.jpg"
+                        alt="Harry Potter : And The Chamber Of Secrets">
+                    <h3>Harry Potter : And The Chamber Of Secrets</h3>
+                    <p>
+                        Release Date : 15 November 2002
+                    </p>
+                </div>
+                <div class="card" onclick="openModal('uDiawFy4NJc')">
+                    <img src="https://i.pinimg.com/564x/b7/cc/be/b7ccbeafad2ba7b1fd5bb351284f68cd.jpg"
+                        alt="Harry Potter : And The Prisoner Of Azkaba">
+                    <h3>Harry Potter : And The Prisoner Of Azkaban</h3>
+                    <p>
+                        Release Date : 31 May 2004
+                    </p>
+                </div>
+                <div class="card" onclick="openModal('QUJNOttpUn8')">
+                    <img src="https://i.pinimg.com/564x/ae/e0/56/aee0568cab31a246c84dc1340df0056e.jpg"
+                        alt="Harry Potter : And The Goblet Of Fire">
+                    <h3>Harry Potter : And The Goblet Of Fire</h3>
+                    <p>
+                        Release Date : 18 November 2005
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="Ayflix">
+        <script src="main.js"></script>
+        Ayflix
+    </footer>
+</body>
+
+</html>
